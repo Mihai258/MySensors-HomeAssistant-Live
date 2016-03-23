@@ -1,0 +1,2814 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # C for Celcius, F for Fahrenheit
+  temperature_unit: C
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Bucharest
+
+  latitude: 44.4
+  longitude: 26.1
+
+  customize:
+    switch.REL01:
+      icon: 'mdi:flash'
+      friendly_name: 'Power'
+    switch.REL02:
+      icon: 'mdi:camera'
+      friendly_name: 'Room13'
+    binary_sensor.PIR01:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+    sensor.Gas1:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+    switch.REL101:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light 1'
+    switch.REL102:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light 2'
+    switch.REL103:
+      icon: 'mdi:camera'
+      friendly_name: 'Room10'
+    switch.REL104:
+      icon: 'mdi:pine-tree'
+      friendly_name: 'Tree'
+    switch.AlmWarn10:
+      icon: 'mdi:bell'
+      friendly_name: 'Room10'
+      hidden: true
+    switch.AlmSnd10:
+      icon: 'mdi:bell-ring'
+      friendly_name: 'Room10'
+      hidden: true
+    switch.AlmAct10:
+      icon: 'mdi:bell-sleep'
+      friendly_name: 'Room10'
+    switch.Tv10:
+      icon: 'mdi:monitor'
+      friendly_name: 'Tv'
+    binary_sensor.Water10:
+      icon: 'mdi:water'
+      friendly_name: 'Water'
+    binary_sensor.PIR10:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+    sensor.Gas1013:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+    sensor.Temp1021:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+      hidden: true
+    sensor.Hum1031:
+      icon: 'mdi:water-percent'
+      friendly_name: 'Humidity'
+    sensor.Temp1032:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+    switch.REL111:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light'
+    switch.REL112:
+      icon: 'mdi:white-balance-incandescent'
+      friendly_name: 'Bathroom'
+    switch.REL113:
+      icon: 'mdi:camera'
+      friendly_name: 'Room11'
+    switch.REL114:
+      icon: 'mdi:flash'
+      friendly_name: 'Power'
+    switch.AlmWarn11:
+      icon: 'mdi:bell'
+      friendly_name: 'Room11'
+      hidden: true
+    switch.AlmSnd11:
+      icon: 'mdi:bell-ring'
+      friendly_name: 'Room11'
+      hidden: true
+    switch.AlmAct11:
+      icon: 'mdi:bell-sleep'
+      friendly_name: 'Room11'
+    binary_sensor.Water11:
+      icon: 'mdi:water'
+      friendly_name: 'Water'
+    binary_sensor.PIR11:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+    sensor.Gas1113:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+    sensor.Temp1121:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+    switch.REL121:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light 1'
+    switch.REL122:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light 2'
+    switch.REL123:
+      icon: 'mdi:camera'
+      friendly_name: 'Room12'
+    switch.REL124:
+      icon: 'mdi:flash'
+      friendly_name: 'Power'
+    switch.AlmWarn12:
+      icon: 'mdi:bell'
+      friendly_name: 'Room12'
+      hidden: true
+    switch.AlmSnd12:
+      icon: 'mdi:bell-ring'
+      friendly_name: 'Room12'
+      hidden: true
+    switch.AlmAct12:
+      icon: 'mdi:bell-sleep'
+      friendly_name: 'Room12'
+    binary_sensor.Water12:
+      icon: 'mdi:water'
+      friendly_name: 'Water'
+    binary_sensor.PIR12:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+    sensor.Gas1213:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+    sensor.Temp1221:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+      hidden: true
+    sensor.Hum1231:
+      icon: 'mdi:water-percent'
+      friendly_name: 'Humidity'
+    sensor.Temp1232:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+    switch.REL131:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light Room13'
+    switch.REL132:
+      icon: 'mdi:white-balance-incandescent'
+      friendly_name: 'Door Light'
+    switch.REL133:
+      icon: 'mdi:oil-temperature'
+      friendly_name: 'WaterHeater'
+    switch.AlmWarn13:
+      icon: 'mdi:bell'
+      friendly_name: 'Room13'
+      hidden: true
+    switch.AlmSnd13:
+      icon: 'mdi:bell-ring'
+      friendly_name: 'Room13'
+      hidden: true
+    switch.AlmAct13:
+      icon: 'mdi:alarm'
+      friendly_name: 'Activate delay'
+    binary_sensor.Water13:
+      icon: 'mdi:water'
+      friendly_name: 'Water'
+    binary_sensor.PIR13:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+      hidden: true
+    sensor.Gas1313:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+      hidden: true
+    sensor.Temp1321:
+      icon: 'mdi:fridge-filled-bottom'
+      friendly_name: 'Freezer'
+    sensor.Temp1322:
+      icon: 'mdi:fridge-filled-top'
+      friendly_name: 'Refrigerator'
+    sensor.Temp1323:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+    sensor.Hum1331:
+      icon: 'mdi:water-percent'
+      friendly_name: 'Humidity'
+      hidden: true
+    sensor.Temp1332:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+      hidden: true
+    switch.REL141:
+      icon: 'mdi:lightbulb'
+      friendly_name: 'Light'
+    switch.REL142:
+      icon: 'mdi:radio'
+      friendly_name: 'Radio'
+    switch.REL143:
+      icon: 'mdi:camera'
+      friendly_name: 'Room14'
+    switch.REL144:
+      icon: 'mdi:flash'
+      friendly_name: 'Power'
+    switch.AlmWarn14:
+      icon: 'mdi:bell'
+      friendly_name: 'Room14'
+      hidden: true
+    switch.AlmSnd14:
+      icon: 'mdi:bell-ring'
+      friendly_name: 'Room14'
+      hidden: true
+    switch.AlmAct14:
+      icon: 'mdi:bell-sleep'
+      friendly_name: 'Room14'
+    sensor.HandSensor1:
+      hidden: true
+    binary_sensor.Water14:
+      icon: 'mdi:water'
+      friendly_name: 'Water'
+    binary_sensor.PIR14:
+      icon: 'mdi:human-child'
+      friendly_name: 'Motion'
+    sensor.Gas1413:
+      icon: 'mdi:fire'
+      friendly_name: 'Smoke'
+    sensor.Temp1421:
+      icon: 'mdi:thermometer'
+      friendly_name: 'Temperature'
+      #hidden: true
+    input_boolean.presenceall:
+      hidden: true
+    input_boolean.ldr10:
+      hidden: true
+    input_boolean.ldr11:
+      hidden: true
+    input_boolean.ldr12:
+      hidden: true
+    input_boolean.ldr14:
+      hidden: true
+    input_boolean.dfr:
+      hidden: true
+    script.alarmctivatedelay:
+      hidden: true
+    script.alarmdeactivate:
+      hidden: true
+    script.alarmroom10high:
+      hidden: true
+    script.alarmroom10low:
+      hidden: true
+    script.alarmroom11high:
+      hidden: true
+    script.alarmroom11low:
+      hidden: true
+    script.alarmroom12high:
+      hidden: true
+    script.alarmroom12low:
+      hidden: true
+    script.alarmroom13high:
+      hidden: true
+    script.alarmroom13low:
+      hidden: true
+    script.alarmroom13freezer:
+      hidden: true
+    script.alarmroom14high:
+      hidden: true
+    script.alarmroom14low:
+      hidden: true
+    script.flashroom10:
+      hidden: true
+    script.flashroom11:
+      hidden: true
+    script.flashroom12:
+      hidden: true
+    script.flashroom13:
+      hidden: true
+    script.flashroom14:
+      hidden: true
+    script.alarmroom13delay:
+      hidden: true
+    script.alarmroom14delay:
+      hidden: true
+    script.room13offdelay:
+      hidden: true
+    script.room13offdelay_pir:
+      hidden: true
+    script.switchdoordelay:
+      hidden: true
+    script.room10light_pir:
+      hidden: true
+    script.room10offdelay:
+      hidden: true
+    script.room11light_pir:
+      hidden: true
+    script.room11offdelay:
+      hidden: true
+    script.room12light_pir:
+      hidden: true
+    script.room12offdelay:
+      hidden: true
+    script.room14light_pir:
+      hidden: true
+    script.room14offdelay:
+      hidden: true
+    script.room12offdelaynight:
+      hidden: true
+    script.all_alarm:
+      hidden: true
+    script.homepresenceenable:
+      hidden: true
+    script.homepresencedelay:
+      hidden: true
+    script.delaylightroomson:
+      hidden: true
+    script.delaylightroomsoff:
+      hidden: true
+    script.delaylightroom10:
+      hidden: true
+    script.delaylightroom11:
+      hidden: true
+    script.delaylightroom12:
+      hidden: true
+    script.delaylightroom14:
+      hidden: true
+    script.lightonstart:
+      hidden: true
+    sun.sun:
+      hidden: true
+
+
+# Enables support for tracking state changes over time.
+#history:
+
+# View all events in a logbook
+#logbook:
+
+# Enables the frontend
+frontend:
+
+# Show links to resources in log and frontend
+# introduction:
+
+# Track the sun
+sun:
+  elevation: 90
+  hidden: true
+
+# Allows you to issue voice commands from the frontend
+# conversation:
+
+
+device_tracker:
+  platform: nmap_tracker
+  hosts: 192.168.1.1/24
+  #minutes not scan home device
+  home_interval: 10
+  track_new_devices: no
+  # scan for new devices
+  interval_seconds: 10
+  # Seconds to wait till marking someone as not home after not being seen
+  consider_home: 600
+
+
+mqtt:
+  broker: 127.0.0.1
+  port: 1883
+  client_id: HA
+
+
+group:
+  Alarm AllHouse:
+   - switch.AlmAct13
+  Alarm triggered:
+   - input_boolean.ack10
+   - input_boolean.ack11
+   - input_boolean.ack12
+   - input_boolean.ack13
+   - input_boolean.ack14
+  Alarm activate:
+   - switch.AlmAct10
+   - switch.AlmAct11
+   - switch.AlmAct12
+   - switch.AlmAct14
+  Light auto:
+    - input_boolean.auto10
+    - input_boolean.auto11
+    - input_boolean.auto12
+    - input_boolean.auto14
+  Light camera delay:
+    - input_boolean.ldr10
+    - input_boolean.ldr11
+    - input_boolean.ldr12
+    - input_boolean.ldr14
+  Alarm Motion:
+   - switch.AlmSnd10
+   - switch.AlmSnd11
+   - switch.AlmSnd12
+   - switch.AlmSnd13
+   - switch.AlmSnd14
+  Camera Web:
+   - switch.REL02
+   - switch.REL103
+   - switch.REL113
+   - switch.REL123
+   - switch.REL143
+  Room_13:
+   - sensor.Temp1323
+   - binary_sensor.PIR01
+   - sensor.Gas1
+   - binary_sensor.Water13
+   - sensor.Temp1322
+   - sensor.Temp1321
+   - switch.REL01
+   - switch.REL131
+   - switch.REL132
+   - switch.REL133
+  Room_10:
+   - sensor.Temp1032
+   - sensor.HUM1031
+   - binary_sensor.PIR10
+   - binary_sensor.Water10
+   - sensor.Gas1013
+   - switch.REL101
+   - switch.REL102
+   - switch.REL104
+   - switch.Tv10
+  Room_11:
+   - sensor.Temp1121
+   - binary_sensor.PIR11
+   - binary_sensor.Water11
+   - sensor.Gas1113
+   - switch.REL111
+   - switch.REL112
+   - switch.REL114
+  Room_14:
+   - sensor.Temp1421
+   - binary_sensor.PIR14
+   - binary_sensor.Water14
+   - sensor.Gas1413
+   - switch.REL141
+   - switch.REL142
+   - switch.REL144
+  Room_12:
+   - sensor.Temp1232
+   - sensor.HUM1231
+   - binary_sensor.PIR12
+   - binary_sensor.Water12
+   - sensor.Gas1213
+   - switch.REL121
+   - switch.REL122
+   - switch.REL124
+
+  Alarm:
+    name: Alarm
+    icon: mdi:bell-ring
+    view: yes
+    entities:
+      - group.Alarm_AllHouse
+      - group.Alarm_triggered
+      - group.Alarm_activate
+      - group.camera_web
+  Room13:
+    name: Room13
+    icon: mdi:home-variant
+    view: yes
+    entities:
+      - group.Room_13
+  Room10:
+    name: Room10
+    icon: mdi:account-multiple
+    view: yes
+    entities:
+      - group.Room_10
+  Room11:
+    name: Room11
+    icon: mdi:laptop-windows
+    view: yes
+    entities:
+      - group.Room_11
+  Room14:
+    name: Room14
+    icon: mdi:food
+    view: yes
+    entities:
+      - group.Room_14
+  Room12:
+    name: Room12
+    icon: mdi:hotel
+    view: yes
+    entities:
+      - group.Room_12
+
+##############
+# Gateway - 0
+##############
+
+switch 1:
+  platform: mqtt
+  state_topic: "P/0/100/1/0/2"
+  command_topic: "S/0/100/1/0/2"
+  qos: 1
+  name: "REL01"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 2:
+  platform: mqtt
+  state_topic: "P/0/200/1/0/2"
+  command_topic: "S/0/200/1/0/2"
+  qos: 1
+  name: "REL02"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1:
+  platform: mqtt
+  state_topic: "P/0/112/1/0/16"
+  name: "PIR01"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1:
+  platform: mqtt
+  state_topic: "P/0/113/1/0/24"
+  name: "Gas1"
+
+##################
+# Room10 - 10
+##################
+
+switch 101:
+  platform: mqtt
+  state_topic: "P/10/1/1/0/2"
+  command_topic: "S/10/1/1/0/2"
+  qos: 1
+  name: "REL101"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 102:
+  platform: mqtt
+  state_topic: "P/10/2/1/0/2"
+  command_topic: "S/10/2/1/0/2"
+  qos: 1
+  name: "REL102"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 103:
+  platform: mqtt
+  state_topic: "P/10/3/1/0/2"
+  command_topic: "S/10/3/1/0/2"
+  name: "REL103"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 104:
+  platform: mqtt
+  state_topic: "P/10/4/1/0/2"
+  command_topic: "S/10/4/1/0/2"
+  qos: 1
+  name: "REL104"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 106:
+  platform: mqtt
+  state_topic: "P/10/6/1/0/2"
+  command_topic: "S/10/6/1/0/2"
+  name: "AlmWarn10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 107:
+  platform: mqtt
+  state_topic: "P/10/7/1/0/2"
+  command_topic: "S/10/7/1/0/2"
+  name: "AlmSnd10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 108:
+  platform: mqtt
+  state_topic: "P/10/8/1/0/2"
+  command_topic: "S/10/8/1/0/2"
+  qos: 1
+  name: "AlmAct10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 109:
+  platform: mqtt
+  state_topic: "P/10/9/1/0/2"
+  command_topic: "S/10/9/1/0/2"
+  qos: 1
+  name: "Tv10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1011:
+  platform: mqtt
+  state_topic: "P/10/11/1/0/16"
+  name: "Water10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1012:
+  platform: mqtt
+  state_topic: "P/10/12/1/0/16"
+  name: "PIR10"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1013:
+  platform: mqtt
+  state_topic: "P/10/13/1/0/24"
+  name: "Gas1013"
+
+sensor 1021:
+  platform: mqtt
+  state_topic: "P/10/21/1/0/0"
+  name: "Temp1021"
+  unit_of_measurement: "°C"
+
+sensor 1031:
+  platform: mqtt
+  state_topic: "P/10/31/1/0/1"
+  name: "HUM1031"
+  unit_of_measurement: "%"
+
+sensor 1032:
+  platform: mqtt
+  state_topic: "P/10/32/1/0/0"
+  name: "Temp1032"
+  unit_of_measurement: "°C"
+
+
+#############
+# Room11 - 11
+#############
+
+switch 111:
+  platform: mqtt
+  state_topic: "P/11/1/1/0/2"
+  command_topic: "S/11/1/1/0/2"
+  qos: 1
+  name: "REL111"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 112:
+  platform: mqtt
+  state_topic: "P/11/2/1/0/2"
+  command_topic: "S/11/2/1/0/2"
+  qos: 1
+  name: "REL112"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 113:
+  platform: mqtt
+  state_topic: "P/11/3/1/0/2"
+  command_topic: "S/11/3/1/0/2"
+  qos: 1
+  name: "REL113"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 114:
+  platform: mqtt
+  state_topic: "P/11/4/1/0/2"
+  command_topic: "S/11/4/1/0/2"
+  qos: 1
+  name: "REL114"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 116:
+  platform: mqtt
+  state_topic: "P/11/6/1/0/2"
+  command_topic: "S/11/6/1/0/2"
+  qos: 1
+  name: "AlmWarn11"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 117:
+  platform: mqtt
+  state_topic: "P/11/7/1/0/2"
+  command_topic: "S/11/7/1/0/2"
+  qos: 1
+  name: "AlmSnd11"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 118:
+  platform: mqtt
+  state_topic: "P/11/8/1/0/2"
+  command_topic: "S/11/8/1/0/2"
+  qos: 1
+  name: "AlmAct11"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1111:
+  platform: mqtt
+  state_topic: "P/11/11/1/0/16"
+  name: "Water11"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1112:
+  platform: mqtt
+  state_topic: "P/11/12/1/0/16"
+  name: "PIR11"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1113:
+  platform: mqtt
+  state_topic: "P/11/13/1/0/24"
+  name: "Gas1113"
+
+sensor 1121:
+  platform: mqtt
+  state_topic: "P/11/21/1/0/0"
+  name: "Temp1121"
+  unit_of_measurement: "°C"
+
+
+################
+# Room12 - 12
+################
+
+switch 121:
+  platform: mqtt
+  state_topic: "P/12/1/1/0/2"
+  command_topic: "S/12/1/1/0/2"
+  qos: 1
+  name: "REL121"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 122:
+  platform: mqtt
+  state_topic: "P/12/2/1/0/2"
+  command_topic: "S/12/2/1/0/2"
+  qos: 1
+  name: "REL122"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 123:
+  platform: mqtt
+  state_topic: "P/12/3/1/0/2"
+  command_topic: "S/12/3/1/0/2"
+  qos: 1
+  name: "REL123"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 124:
+  platform: mqtt
+  state_topic: "P/12/4/1/0/2"
+  command_topic: "S/12/4/1/0/2"
+  qos: 1
+  name: "REL124"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 126:
+  platform: mqtt
+  state_topic: "P/12/6/1/0/2"
+  command_topic: "S/12/6/1/0/2"
+  qos: 1
+  name: "AlmWarn12"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 127:
+  platform: mqtt
+  state_topic: "P/12/7/1/0/2"
+  command_topic: "S/12/7/1/0/2"
+  qos: 1
+  name: "AlmSnd12"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 128:
+  platform: mqtt
+  state_topic: "P/12/8/1/0/2"
+  command_topic: "S/12/8/1/0/2"
+  qos: 1
+  name: "AlmAct12"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1211:
+  platform: mqtt
+  state_topic: "P/12/11/1/0/16"
+  name: "Water12"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1212:
+  platform: mqtt
+  state_topic: "P/12/12/1/0/16"
+  name: "PIR12"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1213:
+  platform: mqtt
+  state_topic: "P/12/13/1/0/24"
+  name: "Gas1213"
+
+sensor 1221:
+  platform: mqtt
+  state_topic: "P/12/21/1/0/0"
+  name: "Temp1221"
+  unit_of_measurement: "°C"
+
+sensor 1231:
+  platform: mqtt
+  state_topic: "P/12/31/1/0/1"
+  name: "HUM1231"
+  unit_of_measurement: "%"
+
+sensor 1232:
+  platform: mqtt
+  state_topic: "P/12/32/1/0/0"
+  name: "Temp1232"
+  unit_of_measurement: "°C"
+
+
+
+#############
+# Room13 - 13
+#############
+
+switch 131:
+  platform: mqtt
+  state_topic: "P/13/1/1/0/2"
+  command_topic: "S/13/1/1/0/2"
+  qos: 1
+  name: "REL131"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 132:
+  platform: mqtt
+  state_topic: "P/13/2/1/0/2"
+  command_topic: "S/13/2/1/0/2"
+  qos: 1
+  name: "REL132"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 133:
+  platform: mqtt
+  state_topic: "P/13/3/1/0/2"
+  command_topic: "S/13/3/1/0/2"
+  qos: 1
+  name: "REL133"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 136:
+  platform: mqtt
+  state_topic: "P/13/6/1/0/2"
+  command_topic: "S/13/6/1/0/2"
+  qos: 1
+  name: "AlmWarn13"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 137:
+  platform: mqtt
+  state_topic: "P/13/7/1/0/2"
+  command_topic: "S/13/7/1/0/2"
+  qos: 1
+  name: "AlmSnd13"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 138:
+  platform: mqtt
+  state_topic: "P/13/8/1/0/2"
+  command_topic: "S/13/8/1/0/2"
+  qos: 1
+  name: "AlmAct13"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1311:
+  platform: mqtt
+  state_topic: "P/13/11/1/0/16"
+  name: "Water13"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1312:
+  platform: mqtt
+  state_topic: "P/13/12/1/0/16"
+  name: "PIR13"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1313:
+  platform: mqtt
+  state_topic: "P/13/13/1/0/24"
+  name: "Gas1313"
+
+sensor 1321:
+  platform: mqtt
+  state_topic: "P/13/21/1/0/0"
+  name: "Temp1321"
+  unit_of_measurement: "°C"
+
+sensor 1322:
+  platform: mqtt
+  state_topic: "P/13/22/1/0/0"
+  name: "Temp1322"
+  unit_of_measurement: "°C"
+
+sensor 1323:
+  platform: mqtt
+  state_topic: "P/13/23/1/0/0"
+  name: "Temp1323"
+  unit_of_measurement: "°C"
+
+sensor 1331:
+  platform: mqtt
+  state_topic: "P/13/31/1/0/1"
+  name: "HUM1331"
+  unit_of_measurement: "%"
+
+sensor 1332:
+  platform: mqtt
+  state_topic: "P/13/32/1/0/0"
+  name: "Temp1332"
+  unit_of_measurement: "°C"
+
+
+#################
+# Room14 - 14
+#################
+
+switch 141:
+  platform: mqtt
+  state_topic: "P/14/1/1/0/2"
+  command_topic: "S/14/1/1/0/2"
+  qos: 1
+  name: "REL141"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 142:
+  platform: mqtt
+  state_topic: "P/14/2/1/0/2"
+  command_topic: "S/14/2/1/0/2"
+  qos: 1
+  name: "REL142"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 143:
+  platform: mqtt
+  state_topic: "P/14/3/1/0/2"
+  command_topic: "S/14/3/1/0/2"
+  qos: 1
+  name: "REL143"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 144:
+  platform: mqtt
+  state_topic: "P/14/4/1/0/2"
+  command_topic: "S/14/4/1/0/2"
+  qos: 1
+  name: "REL144"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 146:
+  platform: mqtt
+  state_topic: "P/14/6/1/0/2"
+  command_topic: "S/14/6/1/0/2"
+  qos: 1
+  name: "AlmWarn14"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 147:
+  platform: mqtt
+  state_topic: "P/14/7/1/0/2"
+  command_topic: "S/14/7/1/0/2"
+  qos: 1
+  name: "AlmSnd14"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+switch 148:
+  platform: mqtt
+  state_topic: "P/14/8/1/0/2"
+  command_topic: "S/14/8/1/0/2"
+  qos: 1
+  name: "AlmAct14"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1411:
+  platform: mqtt
+  state_topic: "P/14/11/1/0/16"
+  name: "Water14"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+binary_sensor 1412:
+  platform: mqtt
+  state_topic: "P/14/12/1/0/16"
+  name: "PIR14"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+sensor 1413:
+  platform: mqtt
+  state_topic: "P/14/13/1/0/24"
+  name: "Gas1413"
+
+sensor 1421:
+  platform: mqtt
+  state_topic: "P/14/21/1/0/0"
+  name: "Temp1421"
+  unit_of_measurement: "°C"
+
+
+##################
+# HandSensor - 19
+##################
+
+sensor 191:
+  platform: mqtt
+  state_topic: "P/19/1/1/0/13"
+  name: "HandSensor1"
+  unit_of_measurement: "cm"
+
+############
+# Alarm ACK
+############
+# Record the triggered alarm, allow manual aknowledge
+
+input_boolean:
+  ack10:
+    name: Room10
+    initial: off
+    icon: mdi:alert
+
+  ack11:
+    name: Room11
+    initial: off
+    icon: mdi:alert
+
+  ack12:
+    name: Room12
+    initial: off
+    icon: mdi:alert
+
+  ack13:
+    name: Room13
+    initial: off
+    icon: mdi:alert
+
+  ack14:
+    name: Room14
+    initial: off
+    icon: mdi:alert
+
+#############
+# Auto Light
+#############
+# Allow automatic light in room based on motion detection
+
+  auto10:
+    name: Room10
+    initial: on
+    icon: mdi:voice
+
+  auto11:
+    name: Room11
+    initial: on
+    icon: mdi:voice
+
+  auto12:
+    name: Room12
+    initial: on
+    icon: mdi:voice
+
+  auto14:
+    name: Room14
+    initial: on
+    icon: mdi:voice
+
+#############
+# Presence
+#############
+# Keep tracking of home presence based on motion sensors
+
+  presenceall:
+    name: presencehome
+    initial: off
+
+#################
+# Light Delay Room
+#################
+# allow light on delay in each room
+
+  ldr10:
+    name: Room10
+    initial: off
+
+  ldr11:
+    name: Room11
+    initial: off
+
+  ldr12:
+    name: Room12
+    initial: off
+
+  ldr14:
+    name: Room14
+    initial: off
+
+  dfr:
+    name: dark_for_room
+    initial: off
+
+
+################
+
+#notify:
+#  name: email
+#  platform: smtp
+#  server: smtp.gmail.com
+#  port: 587
+#  sender: email@gmail.com
+#  starttls: 1
+#  username: email@gmail.com
+#  password: password
+#  recipient: destination@gmail.com
+
+################
+
+automation:
+# HandSensor management for 2 lights
+- alias: 'DistLightOff'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 2
+    below: 7
+  action:
+    service: homeassistant.turn_off
+    entity_id:
+      - switch.REL101
+      - switch.REL102
+
+- alias: 'DistLight2-1'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 8
+    below: 15
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL102
+
+- alias: 'DistLight2-0'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 8
+    below: 15
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL101
+
+- alias: 'DistLight2-1'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 16
+    below: 23
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL101
+
+- alias: 'DistLight2-0'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 16
+    below: 23
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL102
+
+- alias: 'DistLight12'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.HandSensor1
+    above: 24
+    below: 40
+  action:
+    service: homeassistant.turn_on
+    entity_id:
+      - switch.REL101
+      - switch.REL102
+
+- alias: 'AlarmctivationIR'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct13
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmctivatedelay
+
+- alias: 'AlarmDeactivationIR'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct13
+    state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmdeactivate
+
+- alias: 'AlarmAllHouse'
+  trigger:
+    platform: state
+    entity_id: group.Alarm_Motion
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct13
+      state: 'on'
+    - platform: state
+      entity_id: script.all_alarm
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.all_alarm
+
+- alias: 'AlarmPIR_Room10'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR10
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct10
+      state: 'on'
+    - platform: state
+      entity_id: script.alarmroom10high
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom10high
+
+- alias: 'flash_Room10_start'
+  trigger:
+    platform: state
+    entity_id: switch.AlmSnd10
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flashroom10
+
+- alias: 'flash_Room10_stop'
+  trigger:
+    platform: state
+    entity_id: switch.REL101
+    state: 'off'
+  condition:
+    platform: state
+    entity_id: switch.AlmSnd10
+    state: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flashroom10
+
+- alias: 'AlarmWater_Room10'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.Water10
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: script.alarmroom10low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom10low
+
+- alias: 'AlarmSmoke_Room10'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Gas1013
+    above: 150
+  condition:
+    - platform: state
+      entity_id: script.alarmroom10low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom10low
+
+- alias: 'AlarmTemp_Room10'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Temp1032
+    above: 35
+  condition:
+    - platform: state
+      entity_id: script.alarmroom10low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom10low
+
+- alias: 'AlarmPIR_Room11'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR11
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct11
+      state: 'on'
+    - platform: state
+      entity_id: script.alarmroom11high
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom11high
+
+- alias: 'flash_Room11_start'
+  trigger:
+    platform: state
+    entity_id: switch.AlmSnd11
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flashroom11
+
+- alias: 'flash_Room11_stop'
+  trigger:
+    platform: state
+    entity_id: switch.REL111
+    state: 'off'
+  condition:
+    platform: state
+    entity_id: switch.AlmSnd11
+    state: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flashroom11
+
+- alias: 'AlarmWater_Room11'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.Water11
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: script.alarmroom11low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom11low
+
+- alias: 'AlarmSmoke_Room11'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Gas1113
+    above: 150
+  condition:
+    - platform: state
+      entity_id: script.alarmroom11low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom11low
+
+- alias: 'AlarmPIR_Room12'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR12
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct12
+      state: 'on'
+    - platform: state
+      entity_id: script.alarmroom12high
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom12high
+
+- alias: 'flash_Room12_start'
+  trigger:
+    platform: state
+    entity_id: switch.AlmSnd12
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flashroom12
+
+- alias: 'flash_Room12_stop'
+  trigger:
+    platform: state
+    entity_id: switch.REL121
+    state: 'off'
+  condition:
+    platform: state
+    entity_id: switch.AlmSnd12
+    state: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flashroom12
+
+- alias: 'AlarmWater_Room12'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.Water12
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: script.alarmroom12low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom12low
+
+- alias: 'AlarmSmoke_Room12'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Gas1213
+    above: 150
+  condition:
+    - platform: state
+      entity_id: script.alarmroom12low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom12low
+
+- alias: 'AlarmPIR_Room13'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR01
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'on'
+    - platform: state
+      entity_id: script.alarmroom13delay
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom13delay
+
+- alias: 'flash_Room13_start'
+  trigger:
+    platform: state
+    entity_id: switch.AlmSnd13
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flashroom13
+
+- alias: 'flash_Room13_stop'
+  trigger:
+    platform: state
+    entity_id: switch.REL131
+    state: 'off'
+  condition:
+    platform: state
+    entity_id: switch.AlmSnd13
+    state: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flashroom13
+
+- alias: 'AlarmWater_Room13'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.Water13
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: script.alarmroom13low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom13low
+
+- alias: 'AlarmSmoke_Room13'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Gas1
+    above: 150
+  condition:
+    - platform: state
+      entity_id: script.alarmroom13low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom13low
+
+- alias: 'AlarmTemp_Room13'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Temp1323
+    above: 35
+  condition:
+    - platform: state
+      entity_id: script.alarmroom13low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom13low
+
+- alias: 'AlarmTemp_Room13_Freezer'
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.Temp1321
+      above: -5
+    - platform: numeric_state
+      entity_id: sensor.Temp1322
+      above: 10
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom13freezer
+
+- alias: 'AlarmPIR_Room14'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR14
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct14
+      state: 'on'
+    - platform: state
+      entity_id: switch.AlmAct13
+      state: 'off'
+    - platform: state
+      entity_id: script.alarmroom14high
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom14high
+
+- alias: 'AlarmPIR_Room14_delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR14
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: switch.AlmAct13
+      state: 'on'
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'on'
+    - platform: state
+      entity_id: script.alarmroom14delay
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom14delay
+
+- alias: 'flash_Room14_start'
+  trigger:
+    platform: state
+    entity_id: switch.AlmSnd14
+    state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flashroom14
+
+- alias: 'flash_Room14_stop'
+  trigger:
+    platform: state
+    entity_id: switch.REL141
+    state: 'off'
+  condition:
+    platform: state
+    entity_id: switch.AlmSnd14
+    state: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flashroom14
+
+- alias: 'AlarmWater_Room14'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.Water14
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: script.alarmroom14low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom14low
+
+- alias: 'AlarmSmoke_Room14'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.Gas1114
+    above: 150
+  condition:
+    - platform: state
+      entity_id: script.alarmroom14low
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.alarmroom14low
+
+- alias: 'CamWebRoom13_ON'
+  trigger:
+    platform: state
+    entity_id: group.Alarm_activate
+    state: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL02
+
+- alias: 'CamWebRoom13_OFF'
+  trigger:
+    platform: state
+    entity_id: group.Alarm_activate
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL02
+
+- alias: 'CamWebRoom10_ON'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct10
+    state: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL103
+
+- alias: 'CamWebRoom10_OFF'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct10
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL103
+
+- alias: 'CamWebRoom11_ON'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct11
+    state: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL113
+
+- alias: 'CamWebRoom11_OFF'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct11
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL113
+
+- alias: 'CamWebRoom12_ON'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct12
+    state: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL123
+
+- alias: 'CamWebRoom12_OFF'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct12
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL123
+
+- alias: 'CamWebRoom14_ON'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct14
+    state: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL143
+
+- alias: 'CamWebRoom14_OFF'
+  trigger:
+    platform: state
+    entity_id: switch.AlmAct14
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.REL143
+
+- alias: 'PIRRoom13delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR01
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: script.room13offdelay
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.room13offdelay_pir
+
+- alias: 'PIRRoom10delay0'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR10
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto10
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr10
+      state: 'off'
+    - platform: state
+      entity_id: input_boolean.dfr
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroom10
+
+- alias: 'PIRRoom10delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR10
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto10
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr10
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.room10light_pir
+
+- alias: 'PIRRoom11delay0'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR11
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto11
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr11
+      state: 'off'
+    - platform: state
+      entity_id: input_boolean.dfr
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroom11
+
+- alias: 'PIRRoom11delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR11
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto11
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr11
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.room11light_pir
+
+- alias: 'PIRRoom12delay0'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR12
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto12
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr12
+      state: 'off'
+    - platform: state
+      entity_id: input_boolean.dfr
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroom12
+
+- alias: 'PIRRoom12delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR12
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto12
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr12
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.room12light_pir
+
+- alias: 'PIRRoom14delay0'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR14
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto14
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr14
+      state: 'off'
+    - platform: state
+      entity_id: input_boolean.dfr
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroom14
+
+- alias: 'PIRRoom14delay'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.PIR14
+    state: 'on'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+    - platform: state
+      entity_id: switch.REL131
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.auto14
+      state: 'on'
+    - platform: state
+      entity_id: input_boolean.ldr14
+      state: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.room14light_pir
+
+- alias: 'LightRoom13On'
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    below: 3
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.REL131
+
+- alias: 'LightOnStart'
+  trigger:
+    platform: event
+    event_type: homeassistant_start
+  condition:
+    - platform: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state.attributes.elevation }}'
+      below: 0
+    - platform: time
+      before: '22:30:00'
+  action:
+    service: script.turn_on
+    entity_id: script.lightonstart
+
+- alias: 'LightRoom13Off'
+  trigger:
+    platform: time
+    after: '22:30:00'
+  action:
+    service: script.turn_on
+    entity_id: script.room13offdelay
+
+- alias: 'Welcome Home'
+  trigger:
+    platform: state
+    entity_id: device_tracker.mihai
+    state: 'home'
+  condition:
+    - platform: state
+      entity_id: input_boolean.presenceall
+      state: 'off'
+    - platform: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state.attributes.elevation }}'
+      below: 4
+  action:
+    service: script.turn_on
+    entity_id: script.switchdoordelay
+
+- alias: 'Welcome Home AlmOff'
+  trigger:
+    platform: state
+    entity_id: device_tracker.mihai
+    state: 'home'
+  action:
+    service: homeassistant.turn_off
+    entity_id:
+      - switch.AlmAct13
+      - switch.REL02
+
+- alias: 'Room12delaynight'
+  trigger:
+    platform: state
+    entity_id: switch.REL121
+    state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.room12offdelaynight
+
+- alias: 'homepresence'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.PIR10
+      state: 'on'
+    - platform: state
+      entity_id: binary_sensor.PIR11
+      state: 'on'
+    - platform: state
+      entity_id: binary_sensor.PIR12
+      state: 'on'
+    - platform: state
+      entity_id: binary_sensor.PIR13
+      state: 'on'
+    - platform: state
+      entity_id: binary_sensor.PIR14
+      state: 'on'
+    - platform: state
+      entity_id: device_tracker.mihai
+      state: 'home'
+  condition:
+    - platform: state
+      entity_id: group.Alarm_activate
+      state: 'off'
+  action:
+    service: script.turn_on
+    entity_id: script.homepresenceenable
+
+- alias: 'waterheater_on'
+  trigger:
+    - platform: state
+      entity_id: input_boolean.presenceall
+      state: 'on'
+    - platform: state
+      entity_id: device_tracker.mihai
+      state: 'home'
+  action:
+    service: homeassistant.turn_on
+    entity_id:
+      - switch.REL133
+
+- alias: 'evening_for_room'
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    below: 0
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroomson
+
+- alias: 'day_for_room'
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ state.attributes.elevation }}'
+    above: 0
+  action:
+    service: script.turn_on
+    entity_id: script.delaylightroomsoff
+
+
+##############################
+
+script:
+  lightonstart:
+    alias: Light on HA Start
+    sequence:
+      - alias: Evening for Rooms
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.dfr
+      - alias: Light Room13 On
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL131
+      - alias: WaterHeater On
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL133
+
+  delaylightroomson:
+    alias: Delay Light Rooms On
+    sequence:
+      - alias: Evening for Rooms
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.dfr
+      - alias: Delay Room10 On
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr10
+      - alias: Delay Room11 On
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr11
+      - alias: Delay Room12 On
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr12
+      - alias: Delay Room14 On
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr14
+
+  delaylightroomsoff:
+    alias: Delay Light Rooms Off
+    sequence:
+      - alias: Light for Rooms
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.dfr
+      - alias: Delay Room10 Off
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr10
+      - alias: Delay Room11 Off
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr11
+      - alias: Delay Room12 Off
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr12
+      - alias: Delay Room14 Off
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.ldr14
+
+  delaylightroom10:
+    alias: Delay Light Room10
+    sequence:
+      - delay:
+          seconds: 15
+      - alias: Delay Room10 Off
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.ldr10
+
+  delaylightroom11:
+    alias: Delay Light Room11
+    sequence:
+      - delay:
+          seconds: 15
+      - alias: Delay Room11 Off
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.ldr11
+
+  delaylightroom12:
+    alias: Delay Light Room12
+    sequence:
+      - delay:
+          seconds: 15
+      - alias: Delay Room12 On
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.ldr12
+
+  delaylightroom14:
+    alias: Delay Light Room14
+    sequence:
+      - delay:
+          seconds: 50
+      - alias: Delay Room14 On
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.ldr14
+
+  homepresenceenable:
+    alias: Home Presence Enable
+    sequence:
+      - alias: Stop Presence Delay
+        service: script.turn_off
+        data:
+          entity_id: script.homepresencedelay
+      - alias: Start Presence Delay
+        service: script.turn_on
+        data:
+          entity_id: script.homepresencedelay
+
+  homepresencedelay:
+    alias: Home Presence Delay
+    sequence:
+      - alias: Active presence
+        service: homeassistant.turn_on
+        data:
+            entity_id: input_boolean.presenceall
+      - delay:
+          minutes: 10
+      - alias: No presence
+        service: homeassistant.turn_off
+        data:
+            entity_id: input_boolean.presenceall
+
+  switchdoordelay:
+    alias: Outside Door Light
+    sequence:
+      - alias: Room13_lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL131
+      - alias: outdoorlighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL132
+      - delay:
+          minutes: 10
+      - alias: outdoorlightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL132
+
+  room13offdelay_pir:
+    alias: Room13 Off Delay PIR
+    sequence:
+      - alias: Stop Room13 Delay
+        service: script.turn_off
+        data:
+          entity_id: script.room13offdelay
+      - alias: Start Room13 Delay
+        service: script.turn_on
+        data:
+          entity_id: script.room13offdelay
+
+  room13offdelay:
+    alias: Room13 Off Delay
+    sequence:
+      - delay:
+          minutes: 10
+      - alias: Room13lightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL131
+
+  all_alarm:
+    alias: start Alarm toata casa
+    sequence:
+      - delay:
+          seconds: 1
+      - alias: oneoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: group.Alarm_Motion
+      - delay:
+          seconds: 1
+      - alias: allon
+        service: homeassistant.turn_on
+        data:
+            entity_id: group.Alarm_Motion
+      - delay:
+          seconds: 60
+      - alias: alloff
+        service: homeassistant.turn_off
+        data:
+            entity_id: group.Alarm_Motion
+      - delay:
+          seconds: 1
+      - alias: Room13lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL131
+
+  room10light_pir:
+    alias: Room10 Light PIR
+    sequence:
+      - alias: room10lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL101
+      - alias: stopRoom10delay
+        service: script.turn_off
+        data:
+            entity_id: script.room10offdelay
+      - alias: startRoom10delay
+        service: script.turn_on
+        data:
+            entity_id: script.room10offdelay
+
+  room10offdelay:
+    alias: Room10 Light
+    sequence:
+      - delay:
+          minutes: 10
+      - alias: room10lightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL101
+
+  room11light_pir:
+    alias: Room11 Light PIR
+    sequence:
+      - alias: room11lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL111
+      - alias: stopRoom11delay
+        service: script.turn_off
+        data:
+            entity_id: script.room11offdelay
+      - alias: startRoom11delay
+        service: script.turn_on
+        data:
+            entity_id: script.room11offdelay
+
+  room11offdelay:
+    alias: Room11 Light
+    sequence:
+      - delay:
+          minutes: 15
+      - alias: room11lightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL111
+
+  room12light_pir:
+    alias: Room12 Light PIR
+    sequence:
+      - alias: room12lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL122
+      - alias: stopRoom12delay
+        service: script.turn_off
+        data:
+            entity_id: script.room12offdelay
+      - alias: startRoom12delay
+        service: script.turn_on
+        data:
+            entity_id: script.room12offdelay
+
+  room12offdelay:
+    alias: Room12 Light
+    sequence:
+      - delay:
+          minutes: 10
+      - alias: room12lightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL122
+
+  room12offdelaynight:
+    alias: Room12 Light off night
+    sequence:
+      - alias: room12light2temp_on
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL122
+      - delay:
+          seconds: 20
+      - alias: room12light2temp_off
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL122
+
+  room14light_pir:
+    alias: Room14 Light PIR
+    sequence:
+      - alias: room14lighton
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL141
+      - alias: stopRoom14delay
+        service: script.turn_off
+        data:
+            entity_id: script.room14offdelay
+      - alias: startRoom14delay
+        service: script.turn_on
+        data:
+            entity_id: script.room14offdelay
+
+  room14offdelay:
+    alias: Room14 Light
+    sequence:
+      - delay:
+          minutes: 15
+      - alias: room14lightoff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL141
+
+  alarmctivatedelay:
+    alias: Alarm Activate Delay
+    sequence:
+      - alias: activealmwarn
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.AlmWarn13
+      - delay:
+          seconds: 60
+      - alias: deactivealmwarn
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.AlmWarn13
+      - alias: activatealarm
+        service: homeassistant.turn_on
+        service_data:
+          entity_id: group.Alarm_activate
+      - delay:
+          minutes: 15
+      - alias: waterheateroff
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.REL133
+
+  alarmdeactivate:
+    alias: Alarm Deactivate
+    sequence:
+      - alias: deactivealmwarn
+        service: homeassistant.turn_off
+        data:
+            entity_id: switch.AlmWarn13
+      - alias: Stop Activate Script
+        service: script.turn_off
+        data:
+          entity_id: script.alarmctivatedelay
+      - alias: Stop Room13 Delay
+        service: script.turn_off
+        data:
+          entity_id: script.alarmroom13delay
+      - alias: Stop Room14 Delay
+        service: script.turn_off
+        data:
+          entity_id: script.alarmroom14delay
+      - alias: Stop Alarm High
+        service: homeassistant.turn_off
+        data:
+          entity_id: group.Alarm_Motion
+      - alias: Button OFF
+        service: homeassistant.turn_off
+        data:
+          entity_id: group.Alarm_activate
+      - alias: waterheateron
+        service: homeassistant.turn_on
+        data:
+            entity_id: switch.REL133
+
+  alarmroom13delay:
+    alias: Alarm Room13 Start Delay
+    sequence:
+      - alias: Start Warning Room13
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn13
+      - delay:
+          seconds: 20
+      - alias: Stop Warning
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn13
+      - alias: Start Alarm Room13
+        service: script.turn_on
+        data:
+          entity_id: script.alarmroom13high
+
+  alarmroom14delay:
+    alias: Alarm Room14 Start Delay
+    sequence:
+      - alias: Start Warning Room14
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn13
+      - delay:
+          seconds: 20
+      - alias: Stop Warning
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn13
+      - alias: Start Alarm Room14
+        service: script.turn_on
+        data:
+          entity_id: script.alarmroom14high
+
+  alarmroom10high:
+    alias: Alarm Room10 High
+    sequence:
+      - alias: Alarm Room10 High Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmSnd10
+      - alias: ack Room10 H
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack10
+      - alias: emailRoom10high
+        service: notify.email
+        data:
+          message: 'Alarm Motion Room10'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room10 High Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmSnd10
+
+  flashroom10:
+    alias: Flash Room10 On
+    sequence:
+      - alias: rel_Room10_on
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.REL101
+      - delay:
+          seconds: 1
+      - alias: rel_Room10_off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.REL101
+      - delay:
+          seconds: 1
+      - alias: loop_Room10
+        service: script.turn_on
+        data:
+          entity_id: script.flashroom10
+
+  alarmroom10low:
+    alias: Alarm Room10 Low
+    sequence:
+      - alias: Alarm Room10 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn10
+      - alias: ack Room10 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack10
+      - alias: emailRoom10low
+        service: notify.email
+        data:
+          message: 'Alarm sensor Room10'
+      - delay:
+          seconds: 30
+      - alias: Alarm Room10 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn10
+
+  alarmroom11high:
+    alias: Alarm Room11 High
+    sequence:
+      - alias: Alarm Room11 High Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmSnd11
+      - alias: ack Room11 H
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack11
+      - alias: emailRoom11high
+        service: notify.email
+        data:
+          message: 'Alarm Motion Room11'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room11 High Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmSnd11
+
+  flashroom11:
+    alias: Flash Room11 On
+    sequence:
+      - alias: rel_Room11_on
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.REL111
+      - delay:
+          seconds: 1
+      - alias: rel_Room11_off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.REL111
+      - delay:
+          seconds: 1
+      - alias: loop_Room11
+        service: script.turn_on
+        data:
+          entity_id: script.flashroom11
+
+  alarmroom11low:
+    alias: Alarm Room11 Low
+    sequence:
+      - alias: Alarm Room10 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn11
+      - alias: ack Room11 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack11
+      - alias: emailRoom11low
+        service: notify.email
+        data:
+          message: 'Alarm sensor Room11'
+      - delay:
+          seconds: 30
+      - alias: Alarm Room11 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn11
+
+  alarmroom12high:
+    alias: Alarm Room12 High
+    sequence:
+      - alias: Alarm Room12 High Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmSnd12
+      - alias: ack Room12 H
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack12
+      - alias: emailRoom12high
+        service: notify.email
+        data:
+          message: 'Alarm Motion Room12'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room12 High Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmSnd12
+
+  flashroom12:
+    alias: Flash Room12 On
+    sequence:
+      - alias: rel_Room12_on
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.REL121
+      - delay:
+          seconds: 1
+      - alias: rel_Room12_off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.REL121
+      - delay:
+          seconds: 1
+      - alias: loop_Room12
+        service: script.turn_on
+        data:
+          entity_id: script.flashroom12
+
+  alarmroom12low:
+    alias: Alarm Room12 Low
+    sequence:
+      - alias: Alarm Room12 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn12
+      - alias: ack Room12 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack12
+      - alias: emailRoom12low
+        service: notify.email
+        data:
+          message: 'Alarm sensor Room12'
+      - delay:
+          seconds: 30
+      - alias: Alarm Room12 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn12
+
+  alarmroom13high:
+    alias: Alarm Room13 High
+    sequence:
+      - alias: Alarm Room13 High Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmSnd13
+      - alias: ack Room13 H
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack13
+      - alias: emailRoom13high
+        service: notify.email
+        data:
+          message: 'Alarm Motion Room13'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room13 High Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmSnd13
+
+  flashroom13:
+    alias: Flash Room13 On
+    sequence:
+      - alias: rel_Room13_on
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.REL131
+      - delay:
+          seconds: 1
+      - alias: rel_Room13_off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.REL131
+      - delay:
+          seconds: 1
+      - alias: loop_Room13
+        service: script.turn_on
+        data:
+          entity_id: script.flashroom13
+
+  alarmroom13low:
+    alias: Alarm Room13 Low
+    sequence:
+      - alias: Alarm Room13 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn13
+      - alias: ack Room13 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack13
+      - alias: emailRoom13low
+        service: notify.email
+        data:
+          message: 'Alarm sensor Room13'
+      - delay:
+          seconds: 30
+      - alias: Alarm Room13 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn13
+
+  alarmroom13freezer:
+    alias: Alarm Room13 Low
+    sequence:
+      - alias: Alarm Room13 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn13
+      - alias: ack Room13 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack13
+      - alias: emailRoom13low
+        service: notify.email
+        data:
+          message: 'Alarm Refrigerator/Freezer'
+      - delay:
+          seconds: 30
+      - alias: Alarm Room13 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn13
+
+  alarmroom14high:
+    alias: Alarm Room14 High
+    sequence:
+      - alias: Alarm Room14 High Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmSnd14
+      - alias: ack Room13 H
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack14
+      - alias: emailRoom14high
+        service: notify.email
+        data:
+          message: 'Alarm Motion Room14'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room14 High Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmSnd14
+
+  flashroom14:
+    alias: Flash Room14 On
+    sequence:
+      - alias: rel_Room14_on
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.REL141
+      - delay:
+          seconds: 1
+      - alias: rel_Room14_off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.REL141
+      - delay:
+          seconds: 1
+      - alias: loop_Room14
+        service: script.turn_on
+        data:
+          entity_id: script.flashroom14
+
+  alarmroom14low:
+    alias: Alarm Room14 Low
+    sequence:
+      - alias: Alarm Room14 Low Start
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.AlmWarn14
+      - alias: ack Room13 L
+        service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.ack14
+      - alias: emailRoom14low
+        service: notify.email
+        data:
+          message: 'Alarm sensor Room14'
+      - delay:
+          seconds: 60
+      - alias: Alarm Room14 Low Stop
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.AlmWarn14
+

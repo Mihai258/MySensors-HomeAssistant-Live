@@ -1,0 +1,14 @@
+mihai:
+  name: Mihai
+  mac: xx:xx:xx:xx:xx:xx
+  picture: 
+  track: yes
+  hide_if_away: yes
+
+router:
+  name: router-home
+  mac: xx:xx:xx:xx:xx:xx
+  picture: 
+  track: no
+  hide_if_away: no
+
