@@ -1140,16 +1140,16 @@ input_boolean:
 
 ################
 
-#notify:
-#  name: email
-#  platform: smtp
-#  server: smtp.gmail.com
-#  port: 587
-#  sender: email@gmail.com
-#  starttls: 1
-#  username: email@gmail.com
-#  password: password
-#  recipient: destination@gmail.com
+notify:
+  name: email
+  platform: smtp
+  server: smtp.gmail.com
+  port: 587
+  sender: email@gmail.com
+  starttls: 1
+  username: email@gmail.com
+  password: password
+  recipient: destination@gmail.com
 
 ################
 
