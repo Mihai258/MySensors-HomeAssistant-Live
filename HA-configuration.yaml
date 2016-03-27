@@ -1623,7 +1623,7 @@ automation:
 - alias: 'AlarmSmoke_Room14'
   trigger:
     platform: numeric_state
-    entity_id: sensor.Gas1114
+    entity_id: sensor.Gas1413
     above: 150
   condition:
     - platform: state
