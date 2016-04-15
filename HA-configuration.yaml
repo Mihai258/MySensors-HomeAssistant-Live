@@ -2393,7 +2393,7 @@ script:
             entity_id: switch.AlmWarn13
       - alias: activatealarm
         service: homeassistant.turn_on
-        service_data:
+        data:
           entity_id: group.Alarm_activate
       - delay:
           minutes: 15
